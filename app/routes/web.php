@@ -66,6 +66,18 @@ Route::get('/our-term', function () {
 })->name('our-terms');
 
 
+Route::get('/blog', function () {
+    return view('pages.blog');
+})->name('blog');
+
+
+Route::get('/blog-single', function () {
+    return view('pages.blog-single');
+})->name('blog-single');
+
+
+
+
 Route::get('/service', function () {
     return view('pages.service');
 })->name('service');

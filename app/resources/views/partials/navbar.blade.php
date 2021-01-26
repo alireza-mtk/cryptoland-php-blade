@@ -19,7 +19,7 @@
             <a href="{{route("token")}}" class="menu__link">Token</a>
         </li>
         <li class="menu__item">
-            <a href="#docs" class="menu__link">WhitePappers</a>
+            <a href="{{route("blog")}}" class="menu__link">Blog</a>
         </li>
         <li class="menu__item">
             <a href="{{route("team")}}" class="menu__link">Team</a>
@@ -65,37 +65,32 @@
 
         <ul class="mob-menu">
             <li class="mob-menu__item">
-                <a href="#about" class="mob-menu__link">About</a>
+                <a href="{{route("index")}}" class="menu__link">Home</a>
             </li>
             <li class="mob-menu__item">
-                <a href="#services" class="mob-menu__link">Services</a>
+                <a href="{{route("service")}}" class="menu__link">Services</a>
             </li>
             <li class="mob-menu__item">
-                <a href="#map" class="mob-menu__link">Road Map</a>
+                <a href="{{route("token")}}" class="menu__link">Token</a>
             </li>
             <li class="mob-menu__item">
-                <a href="#stat" class="mob-menu__link">Statistic</a>
+                <a href="{{route("blog")}}" class="menu__link">Blog</a>
             </li>
             <li class="mob-menu__item">
-                <a href="#token" class="mob-menu__link">Token</a>
+                <a href="{{route("team")}}" class="menu__link">Team</a>
             </li>
             <li class="mob-menu__item">
-                <a href="#docs" class="mob-menu__link">WhitePappers</a>
+                <a href="{{route("faq")}}" class="menu__link">FAQ</a>
             </li>
             <li class="mob-menu__item">
-                <a href="#team" class="mob-menu__link">Team</a>
+                <a href="{{route("about")}}" class="menu__link">About us</a>
             </li>
             <li class="mob-menu__item">
-                <a href="#faq" class="mob-menu__link">FAQ</a>
+                <a href="{{route("contact")}}" class="menu__link">contact us</a>
             </li>
         </ul>
 
-        <select class="select">
-            <option value="ru">ru</option>
-            <option value="ua">ua</option>
-            <option value="en">en</option>
-        </select>
-
+    
         <div class="btn-wrap">
             <a href="#" class="btn-sign-in">Join Cryptoland ICO</a>
         </div>

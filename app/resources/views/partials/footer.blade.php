@@ -1,5 +1,5 @@
 <footer class="footer m-t-3" style="position: ">
-	<div class="container">
+	
 		<div class="row">
 			<div class="col-lg-4">
 				<a href="#" class="logo">
@@ -54,5 +54,5 @@
 				</form>
 			</div>
 		</div>
-	</div>
+	
 </footer>
