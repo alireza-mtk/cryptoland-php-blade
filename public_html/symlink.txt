@@ -1,0 +1,3 @@
+ln -s C:/Users/USER/Desktop/kasebekhoob/app/storage/app/public C:/Users/USER/Desktop/kasebekhoob/public_html/storage
+
+ln -s f:/work/projects/kasebekhoob/app/storage/app/public f:/work/projects/kasebekhoob/public_html/storage

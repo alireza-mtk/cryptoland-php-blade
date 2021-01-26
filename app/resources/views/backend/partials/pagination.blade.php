@@ -1,0 +1,1 @@
+<span>{!! $items->links() !!}</span>
