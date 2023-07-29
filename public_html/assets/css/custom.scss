@@ -1,0 +1,36 @@
+.promo__img{
+    max-width: 30%;
+    max-height: 100%;
+    position: absolute;
+    left: 215px;
+    top: -220px;
+}
+.promo__img2{
+    max-width: 47%;
+    max-height: 100%;
+    position: absolute;
+    z-index: -999999;
+    left: 68px;
+    bottom: -129px;
+}
+.promo__img3{
+    max-width: 42%;
+    max-height: 100%;
+    position: absolute;
+    right: 100px;
+    top: 166px;
+    border-radius: 16px;
+   
+}
+.ml-5{
+    margin-left: 50px !important;
+}
+.logo__img--big {
+    width: 100% !important;
+}
+.btn-sign-in{
+    background-color: #00d59a !important;
+}
+.btn-sign-in:hover{
+    background-color: #008460  !important;
+}
